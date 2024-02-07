@@ -52,6 +52,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - aleksandar.stojanovic@qakursevionline.com
+Aleksandar Stojanovic - https://www.automatewithalex.com/
 
 Project Link: https://github.com/automatewithalex/JAMSTEC
