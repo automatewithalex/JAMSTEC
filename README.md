@@ -22,14 +22,14 @@ JAMSTEC is a robust, scalable, and easy-to-use automation framework designed for
 
 ### Installation
 
-1. Clone the repository: git clone https://github.com/automatewithalex/JAMSTEC.git
-2. Navigate to the project directory: cd JAMSTEC
-3. Install dependencies: mvn install
+1. Clone the repository: `git clone https://github.com/automatewithalex/JAMSTEC.git`
+2. Navigate to the project directory: `cd JAMSTEC`
+3. Install dependencies: `mvn install`
 
 ### Running Tests
 
-Execute all tests using Maven: mvn test
-To run specific tests, use the `-Dtest` flag with Maven: mvn test -Dtest=YourTestClass
+Execute all tests using Maven: `mvn test`
+To run specific tests, use the `-Dtest` flag with Maven: `mvn test -Dtest=YourTestClass`
 
 ### Configuring TestNG and Cucumber
 
