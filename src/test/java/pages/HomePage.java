@@ -38,12 +38,15 @@ public class HomePage extends BasePage {
     public void typeFirstName(String firstname) {
         type(firstNameInput, firstname);
     }
+
     public void typeLastName(String lastName) {
         type(lastNameInput, lastName);
     }
+
     public void typeEmail(String email) {
         type(emailInput, email);
     }
+
     public void typeMessage(String message) {
         type(messageInput, message);
     }
@@ -51,12 +54,15 @@ public class HomePage extends BasePage {
     public void clearFirstName() {
         firstNameInput.clear();
     }
+
     public void clearLastName() {
         lastNameInput.clear();
     }
+
     public void clearEmail() {
         emailInput.clear();
     }
+
     public void clearMessage() {
         messageInput.clear();
     }
@@ -64,12 +70,15 @@ public class HomePage extends BasePage {
     public String getFirstNameTooltip() {
         return firstNameInput.getAttribute("title");
     }
+
     public String getLastNameTooltip() {
         return lastNameInput.getAttribute("title");
     }
+
     public String getEmailTooltip() {
         return emailInput.getAttribute("title");
     }
+
     public String getMessageTooltip() {
         return messageInput.getAttribute("title");
     }
