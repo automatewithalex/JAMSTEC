@@ -25,19 +25,17 @@ public abstract class BasePage {
         driver.get(url);
     }
 
-    protected void click(WebElement element) {
+    public void click(WebElement element) {
         wait.until(ExpectedConditions.elementToBeClickable(element)).click();
     }
 
-    protected void type(WebElement element, String text) {
-        wait.until(ExpectedConditions.visibilityOf(element));
-        element.clear();
+    public void type(WebElement element, String text) {
+        wait.until(ExpectedConditions.visibilityOf(element)).clear();
         element.sendKeys(text);
     }
 
-    protected boolean isTextPresent(WebElement element, String text) {
-        wait.until(ExpectedConditions.visibilityOf(element));
-        return element.getText().contains(text);
+    public boolean isTextPresent(WebElement element, String text) {
+        return wait.until(ExpectedConditions.visibilityOf(element)).getText().contains(text);
     }
 
     public String getPageTitle() {
